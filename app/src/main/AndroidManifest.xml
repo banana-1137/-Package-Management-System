@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.package_manage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".User_manage"></activity>
+        <activity android:name=".Change_password"></activity>
+        <activity android:name=".Stock_change"></activity>
+        <activity android:name=".Stock_change_page"></activity>
+        <activity android:name=".Stock_out"></activity>
+        <activity android:name=".Stock_in"></activity>
+        <activity android:name=".Menu"></activity>
+        <activity android:name=".Stock_check"></activity>
+        <activity android:name=".Data"></activity>
+        <activity android:name=".User_check"></activity>
+        <activity android:name=".Stock_search"></activity>
+        <activity android:name=".Stock_search_page"></activity>
+        <activity android:name=".User_ui"></activity>
+        <activity android:name=".Real_name"></activity>
+        <activity android:name=".Name_check"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--使用网络权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--写权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--读权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

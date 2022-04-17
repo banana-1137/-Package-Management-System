@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Change_password.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Dialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Menu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Register.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Stock_change.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Stock_change_page.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Stock_check.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Stock_in.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/Stock_out.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/package_manage/User_manage.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

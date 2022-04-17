@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/app_about">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backg_about">
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="本软件是基于Android Studio开发的包裹管理系统。目前还是只完成本地数据库的状态，请等待后续开发。"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="70sp"/>
+    </LinearLayout>
+</LinearLayout>

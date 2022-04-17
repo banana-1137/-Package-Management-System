@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_manage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backg_userman"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/manage"
+            android:text="用户管理"
+            android:background="@drawable/button_1"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:onClick="manage"
+            />
+        <Button
+            android:id="@+id/name_check"
+            android:background="@drawable/button_2"
+            android:text="实名信息查看"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:onClick="name_check"
+            />
+    </LinearLayout>
+</LinearLayout>

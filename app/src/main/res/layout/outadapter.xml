@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:id="@+id/t1"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        />
+    <View       android:layout_toRightOf="@id/t1"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+
+        android:id="@+id/t2"
+
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/t1"
+        />
+    <View       android:layout_toRightOf="@id/t2"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+
+        android:id="@+id/t3"
+
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@id/t2"
+        android:textColor="#000000"
+        />
+    <View       android:layout_toRightOf="@id/t3"
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="120sp"
+        android:layout_height="40sp"
+
+
+        android:gravity="center_horizontal"
+        android:id="@+id/t4"
+        android:layout_toRightOf="@id/t3"
+        android:textColor="#000000"
+        />
+    <View       android:layout_toRightOf="@id/t4"
+        android:layout_width="130sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/t5"
+        android:layout_toRightOf="@id/t4"
+        android:textColor="#000000"
+        />
+    <View       android:layout_toRightOf="@id/t5"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/t6"
+        android:layout_toRightOf="@id/t5"
+        android:textColor="#000000"
+        />
+    <View       android:layout_toRightOf="@id/t6"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:background="#ffffff" />
+
+
+</RelativeLayout>

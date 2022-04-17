@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="序号"
+            android:id="@+id/text16"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="快递公司"
+            android:id="@+id/text17"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/text16"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="取件人"
+            android:id="@+id/text18"
+            android:layout_toRightOf="@id/text17"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="电话"
+            android:id="@+id/text19"
+            android:layout_toRightOf="@id/text18"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/text27"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text19"
+            android:text="包裹状态"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="入库日期"
+            android:id="@+id/text10"
+            android:layout_toRightOf="@id/text27"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+        <ListView
+            android:id="@+id/kucunlist"
+            android:layout_width="match_parent"
+            android:layout_below="@id/text16"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+    </RelativeLayout>
+</HorizontalScrollView>

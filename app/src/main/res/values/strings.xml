@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">包裹管理系统</string>
+    <string-array name="companies">
+        <item>顺丰快递</item>
+        <item>德邦快递</item>
+        <item>圆通快递</item>
+        <item>中通快递</item>
+        <item>京东快递</item>
+        <item>邮政包裹</item>
+        <item>申通快递</item>
+    </string-array>
+</resources>
